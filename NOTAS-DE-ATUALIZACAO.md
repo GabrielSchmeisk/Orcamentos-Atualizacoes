@@ -2,7 +2,19 @@
 
 Este documento registra a linha moderna e multiempresa do aplicativo, iniciada na versão 4.0.0. As versões anteriores pertencem à edição legada personalizada para uma única empresa e não fazem parte deste canal de atualização.
 
-## 6.4.0 — versão atual
+## 6.4.1 — versão atual
+
+- Todo orçamento com status **Finalizado** representa pagamento concluído.
+- A data do pagamento é registrada automaticamente ao finalizar o atendimento.
+- Finalizados antigos também aparecem como **Pagamento concluído**, sem depender da antiga marcação manual.
+- Cancelados e rejeitados são tratados como pagamento não concluído e descartam marcações antigas incompatíveis.
+- Finalizações recentes deixaram de exibir pagamentos pendentes.
+- O cartão de atendimentos informa que o pagamento é confirmado ao finalizar.
+- Validação completa: 68 testes de regra/PDF, 47 testes de integração, lint, build e auditoria do cliente.
+
+SHA-256: `345883A369514BD024D53DB49C8B687941CC389CA4B9DA8AAE77743AC054879E`
+
+## 6.4.0
 
 - Finalizações recentes usam a última conclusão real, inclusive após reabertura do atendimento.
 - Finalizados arquivados continuam no faturamento; cartões, gráfico e ranking fecham nos períodos de 1, 6 e 12 meses.
