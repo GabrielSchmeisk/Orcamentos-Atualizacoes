@@ -2,7 +2,18 @@
 
 Este documento registra a linha moderna e multiempresa do aplicativo, iniciada na versão 4.0.0. As versões anteriores pertencem à edição legada personalizada para uma única empresa e não fazem parte deste canal de atualização.
 
-## 6.4.3 — versão atual
+## 6.6.0 — versão atual
+
+- Controle de garantias vinculado aos atendimentos finalizados, com avaliação, decisão, status e histórico completo.
+- Funil comercial com taxas de aprovação e conversão.
+- Compatibilidade com licenças cifradas e observações visíveis na Administração.
+- Correção da busca em Venda de aparelho e restauração da visualização de clientes arquivados.
+- “Salvar e imprimir” destacado como ação principal na venda de aparelhos.
+- Instalador assinado com certificado autoassinado.
+
+SHA-256: `0FADBF1A2692C126CD694929BA246F47888E5C1A1C77F12BC6F80AD4E452B7A1`
+
+## 6.4.3
 
 - O quadro de **Valor a receber** deixou de usar o retângulo rígido e recebeu cantos arredondados, alinhamento consistente e uma cápsula discreta para o valor.
 - Novo filtro **Ordenar** no Histórico.
