@@ -2,7 +2,24 @@
 
 Este documento registra a linha moderna e multiempresa do aplicativo, iniciada na versão 4.0.0. As versões anteriores pertencem à edição legada personalizada para uma única empresa e não fazem parte deste canal de atualização.
 
-## 6.4.1 — versão atual
+## 6.4.3 — versão atual
+
+- O quadro de **Valor a receber** deixou de usar o retângulo rígido e recebeu cantos arredondados, alinhamento consistente e uma cápsula discreta para o valor.
+- Novo filtro **Ordenar** no Histórico.
+- **Últimos atualizados** é a ordem padrão e coloca primeiro os atendimentos alterados mais recentemente.
+- A opção **Mais recentes** preserva a consulta pela data em que o orçamento foi criado.
+- Empates de atualização usam a data de criação para manter uma ordem estável.
+- Os filtros se reorganizam em duas linhas quando necessário, sem sair do painel.
+- Validação completa: 68 testes de regra/PDF, 48 testes de integração, lint, builds web/desktop, auditoria de segurança e inspeção visual.
+
+SHA-256: `BAB642F4E7A43793E0D5C4B1823AB1086A549B86AB367DB2D03EE5B760D26310`
+
+## 6.4.2
+
+- Versão intermediária que substituiu o retângulo rígido do quadro **Valor a receber** por uma apresentação arredondada e melhor alinhada.
+- Alterações incorporadas ao instalador 6.4.3, que é a versão recomendada para instalação.
+
+## 6.4.1
 
 - Todo orçamento com status **Finalizado** representa pagamento concluído.
 - A data do pagamento é registrada automaticamente ao finalizar o atendimento.
