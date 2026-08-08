@@ -17,7 +17,8 @@ O próprio aplicativo consulta este repositório para avisar quando houver uma v
 
 As notas completas das versões estão reunidas em [NOTAS-DE-ATUALIZACAO.md](NOTAS-DE-ATUALIZACAO.md). Os instaladores correspondentes ficam em **Releases**.
 
-- 6.6.0 — versão mais recente recomendada, com garantias, funil comercial e licença cifrada.
+- 6.6.1 — versão mais recente recomendada, com prazo automático de garantia e comprovante de conclusão.
+- 6.6.0 — garantias, funil comercial e licença cifrada.
 - 6.4.3 — ordenação por atualização e refinamento visual do valor.
 - 6.4.2 — refinamento intermediário do quadro “Valor a receber”, incorporado à 6.4.3.
 - 6.4.1 — pagamento confirmado automaticamente ao finalizar.
@@ -34,4 +35,4 @@ As notas completas das versões estão reunidas em [NOTAS-DE-ATUALIZACAO.md](NOT
 
 ## Segurança
 
-O instalador 6.6.0 possui assinatura de código autoassinada. Ela identifica o responsável pelo arquivo, mas o Windows SmartScreen ainda pode exibir aviso enquanto o certificado não estiver instalado como confiável no computador.
+O instalador 6.6.1 possui assinatura de código autoassinada. Ela identifica o responsável pelo arquivo, mas o Windows SmartScreen ainda pode exibir aviso enquanto o certificado não estiver instalado como confiável no computador.

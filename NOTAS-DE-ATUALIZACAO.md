@@ -2,7 +2,18 @@
 
 Este documento registra a linha moderna e multiempresa do aplicativo, iniciada na versão 4.0.0. As versões anteriores pertencem à edição legada personalizada para uma única empresa e não fazem parte deste canal de atualização.
 
-## 6.6.0 — versão atual
+## 6.6.1 — versão atual
+
+- Garantias abertas a partir do 91º dia após a entrega são recusadas automaticamente, com motivo e quantidade de dias registrados.
+- A regra de 90 dias é protegida tanto na interface quanto no banco local.
+- Garantias abertas dentro do prazo permanecem válidas durante a análise e o reparo.
+- Novo comprovante de conclusão para garantias cobertas, com serviços, peças substituídas, dados da empresa, aparelho e assinaturas.
+- O comprovante é salvo em `Documentos\Orçamentos\Garantias` e pode ser impresso diretamente.
+- Documento validado visualmente em uma página A4 e 138 testes automatizados aprovados.
+
+SHA-256: `C74847D9AE1C6B5C533B253E854A51ABD3D0A71896CAE5BE3138B1D307D46D3A`
+
+## 6.6.0
 
 - Controle de garantias vinculado aos atendimentos finalizados, com avaliação, decisão, status e histórico completo.
 - Funil comercial com taxas de aprovação e conversão.
