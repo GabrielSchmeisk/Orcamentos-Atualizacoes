@@ -2,7 +2,40 @@
 
 Este documento registra a linha moderna e multiempresa do aplicativo, iniciada na versão 4.0.0. As versões anteriores pertencem à edição legada personalizada para uma única empresa e não fazem parte deste canal de atualização.
 
-## 6.2.0 — versão atual
+## 6.4.0 — versão atual
+
+- Finalizações recentes usam a última conclusão real, inclusive após reabertura do atendimento.
+- Finalizados arquivados continuam no faturamento; cartões, gráfico e ranking fecham nos períodos de 1, 6 e 12 meses.
+- Descontos são distribuídos proporcionalmente entre os serviços no ranking comercial.
+- Finalizações recentes abrem diretamente o orçamento correspondente no Histórico.
+- Novo seletor de status integrado ao tema, com cores semânticas em modo claro e noturno.
+- “Pendente” foi substituído por “Pagamento pendente” e o quadro inferior de valor recebeu fundo neutro.
+- Reabrir um atendimento limpa datas encerradas do ciclo anterior; uma nova finalização grava os horários atuais.
+- Cabeçalho e informações do cliente/aparelho foram alinhados em grades fixas no PDF.
+- Validação completa: 66 testes de regra/PDF, 47 testes de integração, lint, build e inspeção visual.
+
+SHA-256: `4DAFF58A3D77BE5D62048ACC881B4BEF4120863F3B3A27A6F462DCAD677D48B0`
+
+## 6.3.1
+
+- Configurações exibem automaticamente o endereço de rede do painel técnico.
+- Botões para copiar, abrir e enviar o acesso pelo WhatsApp.
+- Atalho seguro para as configurações de IPv4 do Windows.
+- Alterações feitas pelo técnico passam a aparecer automaticamente no aplicativo principal.
+
+SHA-256: `03C1CD3BB3480314E442E70C59438323490F5E8BBD17FD02F2FA744709F72685`
+
+## 6.3.0
+
+- Painel técnico responsivo para computadores e celulares na mesma rede privada.
+- Histórico mantém todos os status no seletor e separa ativos de encerrados apenas nos filtros.
+- Restauração direta dos backups disponíveis, com validação SQLite e cópia de segurança.
+- Prazos padrão, iPhone nunca aberto e reparo de software revisados.
+- Telefone obrigatório em Peças e correções de alinhamento no Histórico e nos PDFs.
+
+SHA-256: `147DB83282A6730BCC755D9652D44E732DEF446E8F92D36F66B00099576D7725`
+
+## 6.2.0
 
 ### Destaques
 
