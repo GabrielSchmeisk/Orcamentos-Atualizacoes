@@ -15,9 +15,10 @@ O próprio aplicativo consulta este repositório para avisar quando houver uma v
 
 ## Histórico de versões
 
-As notas completas das versões 4.0.0 a 6.4.0 estão reunidas em [NOTAS-DE-ATUALIZACAO.md](NOTAS-DE-ATUALIZACAO.md). Os instaladores correspondentes ficam em **Releases**.
+As notas completas das versões 4.0.0 a 6.4.1 estão reunidas em [NOTAS-DE-ATUALIZACAO.md](NOTAS-DE-ATUALIZACAO.md). Os instaladores correspondentes ficam em **Releases**.
 
-- 6.4.0 — versão mais recente recomendada, com indicadores reconciliados, novo seletor de status e PDF alinhado.
+- 6.4.1 — versão mais recente recomendada, com pagamento confirmado automaticamente ao finalizar.
+- 6.4.0 — indicadores reconciliados, novo seletor de status e PDF alinhado.
 - 6.3.1 — atualização automática do painel técnico na rede local.
 - 6.3.0 — painel técnico local, restauração de backup e revisão dos prazos.
 - 6.2.0 — painel comercial, peças e melhorias operacionais.
